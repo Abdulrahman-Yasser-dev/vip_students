@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 160 164">
+  <!-- Generator: Adobe Illustrator 29.1.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 142)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #231f20;
+      }
+
+      .st1 {
+        fill: #fff;
+      }
+
+      .st1, .st2 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .st3 {
+        fill: #ec008c;
+        font-family: Tajawal-Regular, Tajawal;
+        font-size: 18px;
+      }
+
+      .st2 {
+        fill: #00aeef;
+      }
+    </style>
+  </defs>
+  <g>
+    <line class="st2" x1="155.36" y1="84.27" x2="80.36" y2="84.27"/>
+    <line class="st2" x1="80.36" y1="84.27" x2="80.36" y2="9.27"/>
+    <path class="st2" d="M155.36,84.27c0,41.42-33.58,75-75,75S5.36,125.69,5.36,84.27,38.94,9.27,80.36,9.27"/>
+  </g>
+  <path class="st1" d="M80.36,9.27c41.42,0,75,33.58,75,75"/>
+  <polyline class="st1" points="155.36 84.27 80.36 84.27 80.36 9.27"/>
+  <text class="st3" transform="translate(113.81 80.45)"><tspan x="0" y="0">٤</tspan></text>
+  <circle class="st0" cx="80.36" cy="84.27" r="3.82"/>
+</svg>
