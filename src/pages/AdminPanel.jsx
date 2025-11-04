@@ -228,7 +228,7 @@ const AdminPanel = () => {
                     <th>اسم الطالب</th>
                     <th>رقم الهاتف</th>
                     <th>رقم السؤال</th>
-                    <th>رقم تعريف السؤال</th>
+                    <th>اسم البنك</th>
                     <th>نص البلاغ</th>
                     <th>تاريخ البلاغ</th>
                     <th>حذف</th>
@@ -242,7 +242,7 @@ const AdminPanel = () => {
                       <td>{report.student_name}</td>
                       <td>{report.student_phone}</td>
                       <td>{report.question_number}</td>
-                      <td>{report.question_id}</td>
+                      <td>{report.question_category}</td>
                       <td>{report.message}</td>
                       <td>
                         {new Date(report.created_at).toLocaleString("ar-EG")}

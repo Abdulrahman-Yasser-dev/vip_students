@@ -170,7 +170,14 @@ const AnswerReviewPage = ({ student }) => {
                         className="mb-3 text-end"
                         dangerouslySetInnerHTML={{
                           __html: q.content
-                            ?.replaceAll("@@PLUGINFILE@@", "/images")
+                            ?.replaceAll(
+                              "@@PLUGINFILE@@",
+                              "https://quiz.alamthal.org/quiz/images"
+                            )
+                            ?.replaceAll(
+                              'src="/quiz/images',
+                              'src="https://quiz.alamthal.org/quiz/images'
+                            )
                             ?.replaceAll(
                               "<img",
                               '<img style="display:block; margin:auto;"'
